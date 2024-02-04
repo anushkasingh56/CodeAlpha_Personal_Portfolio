@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://kit.fontawesome.com/9a3605d224.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+           <nav>
+            <h1><span>ANUSHKA</span> SINGH.</h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+<i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hello, I'm</h1>
+            <br>
+            <h1><span>Anushka</span> Singh</h1>
+        </div>
+      
+    
+    </div>
+</div> 
+
+<!--About------------------------------------------------------------------------------------------------------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+        <div class="about-col-1">
+            <img src="my pic.jpg" >
+        </div>
+
+        <div class="about-col-2">
+            <h1 class="sub-title"><span>A</span>bout Me</h1>
+            <p class="para">Hello I'm Anushka Singh. I'm working as a Web Developer. <br>
+            I consider myself as a responsible and orderly person. I'm proficient in 
+        programming languages such as C, C++, DSA. As i'm good in HTML, CSS and JAVASCRIPT. I,m passionate about coding and always
+        eager to learn something new. This is the field where i get to express my creativity. I would love to work in your 
+esteemed organisation. Thank You. </p>
+
+<div class="tab-titles">
+    <p class="tab-links active-link" onclick="opentab('Skills')" >Skills</p>
+     <p class="tab-links" onclick="opentab('Experience')" >Experience </p>
+      <p class="tab-links" onclick="opentab('Education')" >Education </p>
+</div>
+<div class="tab-contents active-tabs" id="Skills">
+    <ul>
+        <li><span>Web Developer</span><br>Designing Web/App Interfaces</li>
+        <li><span>C and C++</span><br>Programming Languages</li>
+        <li><span>App Development</span><br>Designing Android apps</li>
+    </ul>
+</div>
+<div class="tab-contents" id="Experience">
+    <ul>
+    Internship at Port-o-lab as Campus Ambassador.
+    </ul>
+</div>
+<div class="tab-contents" id="Education">
+    <ul>
+        <li><span>Bachelor's of Computer Applications</span><br>Magadh University<br>(2021-2024)</li>
+        <li><span>Intermediate</span><br>Mahesh Academy<br>(2019-2021)</li>
+        <li><span>Matriculation</span><br>Sun Beam Public School<br>(2019)</li>
+    </ul>
+</div>
+        </div>
+        </div>
+    </div>
+</div>  
+<!--services---------------------------------------------------------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"><span>My</span> Skills</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-html5"></i>
+                <h2>HTML</h2>
+                <p>HTML stands for hypertext markup language. HTML is the most basic building block of the web.
+                    It defines the meaning and structure of web content.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-css3"></i>
+                <h2>CSS</h2>
+                <p>Cascading style sheets(CSS) is a stylesheet that is used to layout, format and 
+                    style document that are written in HTML.
+                </p>
+                
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-js"></i>
+                <h2>JAVASCRIPT</h2>
+                <p>JavaScript is an object-oriented programming language that uses prototypes
+                    rather than using classes for inheritance. 
+                </p>
+                
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--portfolio---------------------------------------------------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"><span>My</span> Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>Still not available</h3>
+                    <p>Hello i'm working on my first project till now.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>Still not available</h3>
+                    <p>Hello i'm working on my first project till now.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>Still not available</h3>
+                    <p>Hello i'm working on my first project till now.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!--contact----------------------------------------------------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"><span>C</span>ontact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>anushkasinghh90@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+917061981704</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100036836940677&mibextid=2JQ9oc" ><i class="fa-brands fa-facebook"></i></a>
+                    <a href="" ><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/anushka_singh_56?igsh=MzNlNGNkZWQ4Mg==" ><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/anushka-singh-775a2222a" ><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="C:\Users\Khushi Singh\Pictures\MY PORTFOLIO\my resume.png" download class="btn btn2" > Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email id" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2024 Anushka. All rights reserved.</p>
+        </div>
+    </div>
+
+</div>
+
+<script> 
+var tablinks= document.getElementsByClassName("tab-links");
+var tabcontents= document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tabs");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tabs");
+    
+    
+
+}
+
+</script>
+<script>
+
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right ="0";
+}
+function closemenu(){
+    sidemenu.style.right ="-200px";
+}
+
+
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwuW5Jhw_Wd2iIe-XZicZDS7k6iaxlGXh96Kxc-Tlttm97UXqAxkcO_OJIJ_ae09ipw7g/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message sent successfully"
+            setTimeout (function (){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
